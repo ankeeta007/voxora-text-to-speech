@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const API_URL = "http://127.0.0.1:8000/api";
+const API_URL = "https://voxora-text-to-speech.onrender.com";
 
 function Login({ onLogin, onShowRegister }) {
   const [email, setEmail] = useState("");
