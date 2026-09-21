@@ -34,7 +34,7 @@ function Login({ onLogin, onShowRegister }) {
       setLoading(true);
 
       const response = await fetch(
-        `${API_URL}/auth/login`,
+        `${API_URL}/api/auth/login`,
         {
           method: "POST",
 

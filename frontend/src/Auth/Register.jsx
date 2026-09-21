@@ -20,7 +20,7 @@ function Register({ onShowLogin }) {
 
     try {
       const response = await fetch(
-        `${API_URL}/auth/register`,
+        `${API_URL}/api/auth/register`,
         {
           method: "POST",
 
