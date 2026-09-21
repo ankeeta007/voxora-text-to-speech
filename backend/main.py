@@ -26,9 +26,10 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
+    "https://voxora-frontend-9vpt.onrender.app"   
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-    "https://voice-forge-frontend.vercel.app"
+    
 ],
     allow_credentials=True,
     allow_methods=["*"],
