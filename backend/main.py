@@ -26,7 +26,7 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-    "https://voxora-frontend-9vpt.onrender.app"   
+    "https://voxora-frontend-9vp1.onrender.app"   
     "http://localhost:5173",
     "http://127.0.0.1:5173",
     
